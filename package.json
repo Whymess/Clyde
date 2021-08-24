@@ -1,0 +1,19 @@
+{
+  "name": "clyde-code-challenge",
+  "version": "1.0.0",
+  "description": "Code challenge for Clyde Engineering interviews",
+  "main": "server.js",
+  "dependencies": {
+    "koa": "~2.6.2",
+    "koa-bodyparser": "~4.2.0",
+    "koa-router": "~7.4.0",
+    "nodemon": "^2.0.12",
+    "uuid": "~3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
